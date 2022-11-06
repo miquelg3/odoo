@@ -1,18 +1,11 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api
+# from odoo import models, fields, api
 
-class player(models.Model):
 
-	_name = 'planes.player'
-	_description = 'players'
-
-	name = fields.Char()
-	planes = fields.One2many('planes.plane','player')
-
-# class school(models.Model):
-#     _name = 'school.school'
-#     _description = 'school.school'
+# class planes(models.Model):
+#     _name = 'planes.planes'
+#     _description = 'planes.planes'
 
 #     name = fields.Char()
 #     value = fields.Integer()
